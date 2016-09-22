@@ -31,6 +31,8 @@ if [ $# -eq 0 ]; then
     echo "place the IP after command as follows ./fix.sh IP-HERE"
   exit 1
 fi
+echo "Downloading firmware for $ver from HP."
+wget http://ftp.hp.com/pub/networking/software/pfirmware/$firm ;
   echo "Xeddius OfficeJet Fix v1.1";
     echo "Uploading Firmware, please be patient!";
       cat $firm | nc -w 100 $@ 9100 && echo "Success!" || echo "Failed! Check your network/ip and files before trying again.";
