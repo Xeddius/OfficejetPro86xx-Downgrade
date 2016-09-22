@@ -17,8 +17,8 @@ The script can be executed from any linux system running bash as follows:
 Change 192.168.1.44 to whatever IP your printer has on the network.
 ## TODO
 - [ ] Support for Windows and OSX
-- [ ] Impliment OS detection
-- [ ] Impliment firmware selection
+- [ ] Implement OS detection
+- [ ] Implement firmware selection
 - [ ] Code cleanup
 - [ ] Improve future support for more printers
 
