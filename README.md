@@ -1,7 +1,7 @@
 # OfficejetPro86xx-Downgrade
 HP intentionally sabotaged their Officejet86xx series of printers (and quite a few others) to reject remanufactured cartridges on 9/13/16. While their intention is to stem illegal production of cloned and patent-infringing ink cartridges, the un-announced nature of this effort has cost many people a large sum of money and even their jobs.
-This script is designed to upload the timebomb-less firmware until remanufacturing companies can provide updated cartridges.
-This script itself is nothing more than a tool and does not in any way provide software/code from HP.
+This script is designed to upload the timebomb-less firmware until remanufacturing/filling companies can provide updated cartridges.
+I want to recommend updating firmware back to the latest version once cartridge refillers have a chance to update their chips/software, but due to the lack of warning and the dishonest nature of HP's tactics, I'd disable all updates until further notice. (That's just my opinion.)
 
 ## Requirements
 	 - HP Officejet 86xx printer connected to local network.
