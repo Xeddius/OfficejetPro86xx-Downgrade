@@ -1,8 +1,10 @@
-# OfficeJetPro86xx-Downgrade
-HP intentionally sabotaged their OfficeJet86xx series of printers to reject remanufactured cartridges on 9/13/16. This script is designed to aid in the removal of their sabotaged firmware.
+# OfficejetPro86xx-Downgrade
+HP intentionally sabotaged their Officejet86xx series of printers (and quite a few others) to reject remanufactured cartridges on 9/13/16. While their intention is to stem illegal production of cloned and patent-infringing ink cartridges, the un-announced nature of this effort has cost many people a large sum of money and even their jobs.
+This script is designed to upload the timebomb-less firmware until remanufacturing companies can provide updated cartridges.
+This script itself is nothing more than a tool and does not in any way provide software/code from HP.
 
 ## Requirements
-	 - HP OfficeJet 86xx printer connected to local network.
+	 - HP Officejet 86xx printer connected to local network.
 	 - Netcat (included in most linux distributions)
 	 - HP firmware to "downgrade" with saved in the same directory as this script.
 **Note: I can _not_ provide the firmware, but I _will_ list the version needed for each printer.**
@@ -29,4 +31,9 @@ Change 192.168.1.44 to whatever IP your printer has on the network.
 8640 | FDP1CN1416AR | ojpro_8640_1416A_04152014_1.ful.rfu
 8660 | FDP1CN1416AR | ojpro_8660_1416A_04152014_1.ful.rfu
 
-You can usually grab the firmware with a quick google search.
+The script can automatically download the firmware files from HP.
+
+##DISCLAIMER:
+>I am not affiliated with HP. Officejet is a registered trademark of Hewlett-Packard Development Company.
+>I am not responsible for what you do with this script as it is provided for demonstration purposes only.
+>This script itself is nothing more than a tool and does not in any way provide software/code from HP.
