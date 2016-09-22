@@ -32,7 +32,7 @@ do
     esac
 done
 echo "Downloading firmware for $ver from HP."
-wget http://ftp.hp.com/pub/networking/software/pfirmware/$firm ;
+wget -nc http://ftp.hp.com/pub/networking/software/pfirmware/$firm ;
   echo "Xeddius Officejet Fix v1.1";
     echo "Uploading $ver Firmware, please be patient!";
       cat $firm | nc -w 100 $@ 9100 && echo "Success!" || echo "Failed! Check your network/ip and files before trying again.";
